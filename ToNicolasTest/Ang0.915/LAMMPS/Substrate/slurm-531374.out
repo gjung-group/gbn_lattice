@@ -1,0 +1,118 @@
+n038.hpc
+Tue Mar 12 07:51:27 PM KST 2024
+Tue Mar 12 07:51:27 PM KST 2024
+LAMMPS (2 Jun 2022)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  triclinic box = (0 0 0) to (101.82375 88.181956 35) with tilt (50.911876 0 0)
+  4 by 4 by 2 MPI processor grid
+  reading atoms ...
+  13332 atoms
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        0        0       
+  special bond factors coul:  0        0        0       
+     0 = max # of 1-2 neighbors
+     0 = max # of 1-3 neighbors
+     0 = max # of 1-4 neighbors
+     1 = max # of special neighbors
+  special bonds CPU = 0.002 seconds
+  read_data CPU = 0.033 seconds
+3302 atoms in group membrane
+3302 atoms in group membrane2
+Reading rebo potential file CH.rebo with DATE: 2018-7-3
+Reading ExTeP potential file BN.extep with DATE: 2017-11-28
+WARNING: New thermo_style command, previous thermo_modify settings will be lost (src/output.cpp:903)
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (src/min.cpp:187)
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 17.7
+  ghost atom cutoff = 17.7
+  binsize = 8.85, bins = 18 10 4
+  3 neighbor lists, perpetual/occasional/extra = 3 0 0
+  (1) pair drip, perpetual
+      attributes: full, newton on, ghost
+      pair build: full/bin/ghost
+      stencil: full/ghost/bin/3d
+      bin: standard
+  (2) pair rebo, perpetual, skip from (1)
+      attributes: full, newton on, ghost
+      pair build: skip/ghost
+      stencil: none
+      bin: none
+  (3) pair extep, perpetual, skip from (1)
+      attributes: full, newton on, ghost
+      pair build: skip/ghost
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 15.78 | 15.97 | 16.17 Mbytes
+   Step         PotEng           Lx             Ly             Lz           Press           Pxx            Pyy            Pzz          c_eatoms   
+         0  -92001.1        101.82375      88.181956      35            -2557.7077     -4103.4835     -4103.4823      533.84281     -92001.1      
+        10  -92006.325      101.82375      88.181956      35            -2673.4422     -4095.2479     -4094.5544      169.47578     -92006.325    
+        20  -92006.616      101.82375      88.181956      35            -2681.6953     -4094.2362     -4094.567       143.71744     -92006.616    
+        30  -92006.8        101.82375      88.181956      35            -2690.7677     -4093.9873     -4094.5353      116.21951     -92006.8      
+        40  -92006.836      101.82375      88.181956      35            -2695.0872     -4095.3378     -4095.4555      105.53169     -92006.836    
+        50  -92006.852      101.82375      88.181956      35            -2697.4225     -4095.1773     -4095.2866      98.196405     -92006.852    
+        60  -92006.858      101.82375      88.181956      35            -2699.1044     -4094.6661     -4094.8415      92.194456     -92006.858    
+        70  -92006.86       101.82375      88.181956      35            -2699.4461     -4094.057      -4094.2095      89.928131     -92006.86     
+        80  -92006.861      101.82375      88.181956      35            -2699.6177     -4093.7105     -4093.7958      88.653211     -92006.861    
+        90  -92006.862      101.82375      88.181956      35            -2699.5496     -4093.4902     -4093.5762      88.417478     -92006.862    
+       100  -92006.862      101.82375      88.181956      35            -2699.4146     -4093.2769     -4093.3959      88.429063     -92006.862    
+       110  -92006.862      101.82375      88.181956      35            -2699.3163     -4093.2041     -4093.2498      88.505015     -92006.862    
+       120  -92006.862      101.82375      88.181956      35            -2699.2307     -4093.1661     -4093.2156      88.68961      -92006.862    
+       130  -92006.862      101.82375      88.181956      35            -2699.2028     -4093.1859     -4093.2144      88.791755     -92006.862    
+       140  -92006.862      101.82375      88.181956      35            -2699.1903     -4093.1742     -4093.1981      88.801468     -92006.862    
+       150  -92006.862      101.82375      88.181956      35            -2699.2004     -4093.1676     -4093.1755      88.74199      -92006.862    
+       160  -92006.862      101.82375      88.181956      35            -2699.2036     -4093.1598     -4093.1672      88.716064     -92006.862    
+       170  -92006.862      101.82375      88.181956      35            -2699.2069     -4093.1541     -4093.1572      88.690539     -92006.862    
+       180  -92006.862      101.82375      88.181956      35            -2699.2075     -4093.1525     -4093.1547      88.684539     -92006.862    
+       190  -92006.862      101.82375      88.181956      35            -2699.2071     -4093.1523     -4093.1533      88.684466     -92006.862    
+       200  -92006.862      101.82375      88.181956      35            -2699.2068     -4093.1527     -4093.1532      88.685592     -92006.862    
+       210  -92006.862      101.82375      88.181956      35            -2699.2063     -4093.1531     -4093.1534      88.687464     -92006.862    
+       220  -92006.862      101.82375      88.181956      35            -2699.2061     -4093.1534     -4093.1536      88.688849     -92006.862    
+       230  -92006.862      101.82375      88.181956      35            -2699.2058     -4093.1535     -4093.1535      88.68966      -92006.862    
+       240  -92006.862      101.82375      88.181956      35            -2699.2056     -4093.1536     -4093.1535      88.690254     -92006.862    
+       249  -92006.862      101.82375      88.181956      35            -2699.2055     -4093.1537     -4093.1535      88.690525     -92006.862    
+Loop time of 35.4016 on 32 procs for 249 steps with 13332 atoms
+
+99.6% CPU use with 32 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+     -92001.0999781315  -92006.8622917356  -92006.8622917356
+  Force two-norm initial, final = 2.7611819 9.8904803e-06
+  Force max component initial, final = 0.076290531 5.9352063e-07
+  Final line search alpha, max atom move = 1 5.9352063e-07
+  Iterations, force evaluations = 249 498
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 27.899     | 31.722     | 35.278     |  54.5 | 89.61
+Bond    | 9.9659e-05 | 0.00011816 | 0.00013585 |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.074724   | 3.5169     | 7.4529     | 163.9 |  9.93
+Output  | 0.0096778  | 0.0098099  | 0.013351   |   0.6 |  0.03
+Modify  | 0.0014337  | 0.0015186  | 0.001715   |   0.2 |  0.00
+Other   |            | 0.1513     |            |       |  0.43
+
+Nlocal:        416.625 ave         423 max         410 min
+Histogram: 2 10 0 0 4 2 4 2 0 8
+Nghost:        8069.06 ave        8120 max        8013 min
+Histogram: 2 4 4 4 2 0 4 4 4 4
+Neighs:              0 ave           0 max           0 min
+Histogram: 32 0 0 0 0 0 0 0 0 0
+FullNghs:       553473 ave      563492 max      544274 min
+Histogram: 2 10 0 4 2 0 3 3 2 6
+
+Total # of neighbors = 17711148
+Ave neighs/atom = 1328.4689
+Ave special neighs/atom = 0
+Neighbor list builds = 0
+Dangerous builds = 0
+All done!
+Total wall time: 0:00:35

@@ -1,0 +1,64 @@
+n007.hpc
+Tue May 31 20:41:42 KST 2022
+Tue May 31 20:41:42 KST 2022
+LAMMPS (7 Aug 2019)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  triclinic box = (0 0 0) to (135.311 117.183 35) with tilt (67.6555 0 0)
+  5 by 4 by 1 MPI processor grid
+  reading atoms ...
+  17714 atoms
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:   0          0          0         
+  special bond factors coul: 0          0          0         
+  0 = max # of 1-2 neighbors
+  0 = max # of 1-3 neighbors
+  0 = max # of 1-4 neighbors
+  1 = max # of special neighbors
+  special bonds CPU = 0.00216441 secs
+  read_data CPU = 0.0228376 secs
+5832 atoms in group membrane
+Reading potential file CH.rebo with DATE: 2018-7-3
+Reading potential file BN.extep with DATE: 2017-11-28
+WARNING: New thermo_style command, previous thermo_modify settings will be lost (src/output.cpp:708)
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (src/min.cpp:168)
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 17.7
+  ghost atom cutoff = 17.7
+  binsize = 8.85, bins = 23 14 4
+  3 neighbor lists, perpetual/occasional/extra = 3 0 0
+  (1) pair drip, perpetual
+      attributes: full, newton on, ghost
+      pair build: full/bin/ghost
+      stencil: full/ghost/bin/3d
+      bin: standard
+  (2) pair rebo, perpetual, skip from (1)
+      attributes: full, newton on, ghost
+      pair build: skip/ghost
+      stencil: none
+      bin: none
+  (3) pair extep, perpetual, skip from (1)
+      attributes: full, newton on, ghost
+      pair build: skip/ghost
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 18.12 | 18.12 | 18.13 Mbytes
+Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms 
+       0   -123235.98      135.311    117.18276           35   -1662.6393    -2541.769   -2541.8088    95.659863   -123235.98 
+      10   -123241.79      135.311    117.18276           35   -1754.4339   -2535.1526   -2537.5972   -190.55183   -123241.79 
+      20   -123242.39      135.311    117.18276           35    -1739.091   -2529.8086   -2529.1355   -158.32889   -123242.39 
+      30   -123242.53      135.311    117.18276           35   -1723.9774   -2529.2365   -2528.9267     -113.769   -123242.53 
+      40   -123242.62      135.311    117.18276           35   -1710.2876   -2531.1746   -2531.4151   -68.273167   -123242.62 
+      50   -123242.67      135.311    117.18276           35   -1695.6631    -2532.094   -2532.2971   -22.598232   -123242.67 
+      60   -123242.69      135.311    117.18276           35   -1691.4708   -2532.8145   -2532.7401   -8.8578731   -123242.69 
+      70   -123242.69      135.311    117.18276           35   -1689.8752   -2532.9043   -2532.9892   -3.7322048   -123242.69 
+      80   -123242.69      135.311    117.18276           35    -1689.314   -2533.2228   -2533.1818   -1.5375279   -123242.69 
+      90   -123242.69      135.311    117.18276           35   -1688.9875   -2533.3066   -2533.3387  -0.31734308   -123242.69 
+     100   -123242.69      135.311    117.18276           35   -1688.9301    -2533.409   -2533.4012   0.01999078   -123242.69 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 780930 ON n007 CANCELLED AT 2022-05-31T20:42:06 ***

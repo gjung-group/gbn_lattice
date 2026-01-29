@@ -1,0 +1,250 @@
+#   OMP_NUM_THREADS=8
+#   export OMP_NUM_THREADS
+#   grabnes Gendata.in > OUT 
+#
+
+Description Generate TB data
+Prefix generate
+
+F2G2Model .false.
+vpppi0 2.7
+
+LatticeParameterBN 2.505759 
+LatticeParameter 2.4602
+realStrainReferenceLatticeConstant 2.4389777651302801
+realStrainReferenceLatticeConstantBN 2.4389777651302801
+
+TB.NeighLevels 5
+
+GBNtwoLayers .true.
+GBNtwoLayersF2G2s .true.
+GBNuseDisplacementFile .true.
+GBNuseHarmonicApprox .true.
+GBNOffDiag .true.
+
+realStrain .true.
+renormalizeCoupling .true.
+couplingFactor 1.0
+TypeOfSystem ReadXYZ
+#TypeOfSystem TwistedBilayerBasedOnMoireCell
+#TypeOfBL Koshino
+#addPressureDependence .true.
+#TypeOfBL Koshino
+#KoshinoSR .true.
+#KoshinoIntralayer .false.
+#addPressureDependence .true.
+#oldParameterSet .false.
+#changeLatticeParameterForSrivaniModel .true.
+#
+#LatticeParameter 2.4389777651302801
+
+#newFittingFunctions .true.
+
+#sublatticeDependent .true.
+#findThetasGeometrically .true.
+#basedOnMoireCellParameters .true.
+#MoireCellParameters 7 6 6 7
+
+forceBilayerF2G2Intralayer .false.
+
+#deactivateV3 .true.
+
+#KaxirasCutoff 4.5
+#renormalizeHoppingFactorBAp 0.9662
+#renormalizeHoppingFactorABp 0.9662
+#renormalizeHoppingFactorAAp 0.7996
+#renormalizeHoppingFactorBAp 1.0752
+#renormalizeHoppingFactorABp 1.0752
+#renormalizeHoppingFactorAAp 1.0
+
+#
+#deactivateInterlayerTwisted .true.
+
+#twistedBLAddShift .true.
+#BernalShift .true.
+
+#BilayerThreeParameters .true.
+#Spectral.WeiKu .true.
+#Spectral.Nishi .false.
+
+
+#TB.OnSiteC 0.3504
+#TB.Hopping 2.8922
+#TB.OnSiteC1 0.0-0.39969
+#TB.OnSiteC2 0.0-0.42011
+#TB.OnSiteC1 0.0-0.4017
+#TB.OnSiteC2 0.0-0.4027
+##TB.OnSiteC 0.4914
+#TB.OnSiteB 2.3143
+#TB.OnSiteN 0.0-1.7966
+#TB.OnSiteC 0.44
+#TB.Hopping 3.01
+TB.OnSiteC1 0.0
+TB.OnSiteC2 0.0
+#TB.OnSiteC 0.4914
+TB.OnSiteB 0.0
+TB.OnSiteN 0.0
+TB.Hopping 3.0301
+TB.BNHopping 2.88913
+
+#CApAp0 
+
+#twoLayers .true.
+#twoLayersZ1 45.0
+#twoLayersZ2 48.2
+#twoLayers .true.
+#twoLayersZ1 15.85
+#twoLayersZ2 19.15
+#threeLayers .true.
+#threeLayersZ1  12.55
+#threeLayersZ2  15.85
+#threeLayersZ3  19.15
+#
+#middleTwist .true.
+
+InterlayerDistance 3.35
+
+#fourLayers .true.
+#fourLayersZ1  12.0
+#fourLayersZ2  15.6
+#fourLayersZ3  19.3
+#fourLayersZ4  23.0
+
+SuperCell 1
+#MoireCellParameters 22 21 21 22
+#MoireCellParameters 10 9 9 10
+
+Calculate.OnlyDOS .false.
+Kubo.Calc .false.
+Diag.Calc .true.
+Calculate.Bands .true.
+
+
+#CellSize 1
+
+#Spectral.NumPoints 1
+#&begin Spectral.Path 2
+#2/3   1/3 0.0 #K (what I think)
+#0.0   0.0  0.0 #Gamma
+#&end Spectral.Path
+
+#Bands.NumPoints 2
+#&begin Bands.Path 4
+#1/3   0.0-1/3 0.0 #K (what I think)
+#0.0   0.0  0.0 #Gamma
+#0.5   0.0 0.0 #
+#1/3   0.0-1/3 0.0 #K (what I think)
+#&end Bands.Path
+
+Bands.NumPoints 10
+&begin Bands.Path 4
+0.0   0.0 0.0 #Gamma
+0.5   0.0 0.0 #M
+1/3   0.0-1/3 0.0 #K
+0.0   0.0 0.0 #Gamma
+&end Bands.Path
+
+#&begin Spectral.Path 3
+#0.65  0.3 0.0 #M
+#2/3   1/3 0.0 #K (what I think)
+#0.733333333   0.36666666666  0.0 #Gamma
+#&end Spectral.Path
+#&begin Bands.Path 3
+#0.5833333  0.166666 0.0 #M
+#2/3   1/3 0.0 #K (what I think)
+#0.33333333   0.16666666 0.0 #Gamma
+#&end Bands.Path
+
+#Spectral.GaussianConvolution .false.
+#NumberofEnergyPoints 5000
+##Epsilon 0.1
+#Spectral.Emin 0.0-5.0
+#Spectral.Emax 5.0
+#Spectral.energyGridResolution 0.05
+
+#BilayerShiftFactor 0.0
+#neighborSafetyCheck .false.
+#neighborExpectedNumber 4
+#Neigh.fastNN .false.
+Neigh.fastNNnotsquare .true.
+#Neigh.CompareAll .true.
+
+MoirePotential .true.
+
+MoireSachs .false.
+MoirePotA 0.0558
+MoirePotB 0.1260
+
+Anderson .false.
+AndersonAmp 0.5
+
+Bubbles .false.
+onsiteShift 0.05
+checkerDivider 10
+
+
+#BilayertAB 0.361
+twistedBLtbt 0.113
+#twistedBilayerAngle 10.0
+Neigh.LayerNeighbors 400
+#TB.NeighLevels 5
+Neigh.LayerDistFactor 6.2 # jiaqi goes to 24 Ang, 6.2*1.42 = 8.804
+CellHeight 40.0
+MoireBilayerElectricField .false.
+MoireBilayerElectricShift 0.0
+
+#MoireCellParameters 49 20 50 30 
+#InterlayerDistance 3.22
+
+MoireJeil .false.
+MoireOffDiag .false.
+MoireOnlyH0 .false.
+MoireOnlyHZ .false.
+MoireNoH0AndHZ .false.
+MoireH0AndHZ .false.
+MoirePotC0   0-0.01013
+MoirePotCz   0-0.00901
+MoirePotCab   0.01134
+MoirePotPhi0  1.510233401750693
+MoirePotPhiz  0.147131255943122
+MoirePotPhiab  0.342084533390889
+Latticepercent  0-0.018181818181818
+
+#MagField.InitialB 10.0       # In Tesla
+#MagField.FinalB 15.0
+#MagField.Step 1.0
+
+MagField.Integer 0
+
+#MagField.InitialInteger 0
+#MagField.FinalInteger 550
+#MagField.IntegerStep 1
+
+GaussDisorder .false.
+GaussPotPercentage 0.125
+GaussPotRange 4.26
+GaussPotStrength 0.5
+
+RandomStrain .false.
+GaussHeightPercentage 0.5
+GaussHeightRange 80
+GaussHeightStrength 0.7
+
+WriteDataFiles .true.
+WritePos .true.
+
+# PDOS .true.
+# PDOSxmin 0.0
+# PDOSxmax 100.0
+# PDOSymin 0.0
+# PDOSymax 100.0
+#
+RecursionNumber 4000
+NumberofTimeSteps 1000
+TimeStep 5.0
+NumberofPolynomials 100
+#NumberofEnergyPoints 4000
+#Epsilon 0.000162
+WriteNumberofSteps 10
+EnergyMin 0-6.0
+EnergyMax 6.0

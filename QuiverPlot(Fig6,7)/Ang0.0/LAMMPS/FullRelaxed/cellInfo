@@ -1,0 +1,17 @@
+Angle:     0.000000000
+Delta:     0.018518413
+
+                a     b     a'    b'       Delta            Angle       N   #1   #2
+For angle:      53     0    54     0     0.018867925     0.000000000    1  2809  2916
+For delta:      54     0    55     0     0.018518519     0.000000000    1  2916  3025
+For both:        0     0     0     0             NaN             NaN    0     0     0
+
+Final angle:     0.000000
+Final BN lattice parameter:     2.505759
+Atoms for graphene:    6050
+Atoms for BN:    5832
+
+Size of layer 1:   55 x 55   (55 x 0)
+Size of layer 2:   54 x 54   (54 x 0)
+ lambda1:   135.31099999999941     
+ lambda2:   135.31100000000001     

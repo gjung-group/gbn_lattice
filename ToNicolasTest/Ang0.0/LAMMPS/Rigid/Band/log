@@ -1,0 +1,742 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+ans =
+
+0.84%
+
+Elapsed time is 1044.315498 seconds.
+
+ans =
+
+1.68%
+
+Elapsed time is 1307.395491 seconds.
+
+ans =
+
+2.52%
+
+Elapsed time is 1331.390183 seconds.
+
+ans =
+
+3.36%
+
+Elapsed time is 1284.402599 seconds.
+
+ans =
+
+4.20%
+
+Elapsed time is 1307.723377 seconds.
+
+ans =
+
+5.04%
+
+Elapsed time is 1293.783702 seconds.
+
+ans =
+
+5.88%
+
+Elapsed time is 1305.181550 seconds.
+
+ans =
+
+6.72%
+
+Elapsed time is 1286.072799 seconds.
+
+ans =
+
+7.56%
+
+Elapsed time is 1310.407903 seconds.
+
+ans =
+
+8.40%
+
+Elapsed time is 1292.529701 seconds.
+
+ans =
+
+9.24%
+
+Elapsed time is 1313.518624 seconds.
+
+ans =
+
+10.08%
+
+Elapsed time is 1311.177694 seconds.
+
+ans =
+
+10.92%
+
+Elapsed time is 1292.889995 seconds.
+
+ans =
+
+11.76%
+
+Elapsed time is 1286.649831 seconds.
+
+ans =
+
+12.61%
+
+Elapsed time is 1322.533139 seconds.
+
+ans =
+
+13.45%
+
+Elapsed time is 1306.889847 seconds.
+
+ans =
+
+14.29%
+
+Elapsed time is 1304.559530 seconds.
+
+ans =
+
+15.13%
+
+Elapsed time is 1303.490501 seconds.
+
+ans =
+
+15.97%
+
+Elapsed time is 1321.337148 seconds.
+
+ans =
+
+16.81%
+
+Elapsed time is 1307.158014 seconds.
+
+ans =
+
+17.65%
+
+Elapsed time is 1326.730744 seconds.
+
+ans =
+
+18.49%
+
+Elapsed time is 1322.835551 seconds.
+
+ans =
+
+19.33%
+
+Elapsed time is 1322.398737 seconds.
+
+ans =
+
+20.17%
+
+Elapsed time is 1305.565102 seconds.
+
+ans =
+
+21.01%
+
+Elapsed time is 1320.960652 seconds.
+
+ans =
+
+21.85%
+
+Elapsed time is 1305.689605 seconds.
+
+ans =
+
+22.69%
+
+Elapsed time is 1306.563413 seconds.
+
+ans =
+
+23.53%
+
+Elapsed time is 1303.489425 seconds.
+
+ans =
+
+24.37%
+
+Elapsed time is 1320.095681 seconds.
+
+ans =
+
+25.21%
+
+Elapsed time is 1292.660687 seconds.
+
+ans =
+
+26.05%
+
+Elapsed time is 1320.524597 seconds.
+
+ans =
+
+26.89%
+
+Elapsed time is 1325.975788 seconds.
+
+ans =
+
+27.73%
+
+Elapsed time is 1307.761125 seconds.
+
+ans =
+
+28.57%
+
+Elapsed time is 1310.356146 seconds.
+
+ans =
+
+29.41%
+
+Elapsed time is 1324.139897 seconds.
+
+ans =
+
+30.25%
+
+Elapsed time is 1302.921998 seconds.
+
+ans =
+
+31.09%
+
+Elapsed time is 1300.458004 seconds.
+
+ans =
+
+31.93%
+
+Elapsed time is 1304.767220 seconds.
+
+ans =
+
+32.77%
+
+Elapsed time is 1312.764143 seconds.
+
+ans =
+
+33.61%
+
+Elapsed time is 1296.948774 seconds.
+
+ans =
+
+34.45%
+
+Elapsed time is 1316.133739 seconds.
+
+ans =
+
+35.29%
+
+Elapsed time is 1319.576555 seconds.
+
+ans =
+
+36.13%
+
+Elapsed time is 1318.119209 seconds.
+
+ans =
+
+36.97%
+
+Elapsed time is 1304.382999 seconds.
+
+ans =
+
+37.82%
+
+Elapsed time is 1317.603440 seconds.
+
+ans =
+
+38.66%
+
+Elapsed time is 1300.926384 seconds.
+
+ans =
+
+39.50%
+
+Elapsed time is 1323.425594 seconds.
+
+ans =
+
+40.34%
+
+Elapsed time is 1298.732127 seconds.
+
+ans =
+
+41.18%
+
+Elapsed time is 1326.599977 seconds.
+
+ans =
+
+42.02%
+
+Elapsed time is 1294.404444 seconds.
+
+ans =
+
+42.86%
+
+Elapsed time is 1329.095343 seconds.
+
+ans =
+
+43.70%
+
+Elapsed time is 1313.015267 seconds.
+
+ans =
+
+44.54%
+
+Elapsed time is 1317.446174 seconds.
+
+ans =
+
+45.38%
+
+Elapsed time is 1309.069511 seconds.
+
+ans =
+
+46.22%
+
+Elapsed time is 1326.244767 seconds.
+
+ans =
+
+47.06%
+
+Elapsed time is 1291.764328 seconds.
+
+ans =
+
+47.90%
+
+Elapsed time is 1321.751403 seconds.
+
+ans =
+
+48.74%
+
+Elapsed time is 1296.336965 seconds.
+
+ans =
+
+49.58%
+
+Elapsed time is 1330.799543 seconds.
+
+ans =
+
+50.42%
+
+Elapsed time is 1298.779528 seconds.
+
+ans =
+
+51.26%
+
+Elapsed time is 1341.542040 seconds.
+
+ans =
+
+52.10%
+
+Elapsed time is 1315.579370 seconds.
+
+ans =
+
+52.94%
+
+Elapsed time is 1314.818830 seconds.
+
+ans =
+
+53.78%
+
+Elapsed time is 1304.360594 seconds.
+
+ans =
+
+54.62%
+
+Elapsed time is 1326.529362 seconds.
+
+ans =
+
+55.46%
+
+Elapsed time is 1294.823284 seconds.
+
+ans =
+
+56.30%
+
+Elapsed time is 1324.046421 seconds.
+
+ans =
+
+57.14%
+
+Elapsed time is 1311.989388 seconds.
+
+ans =
+
+57.98%
+
+Elapsed time is 1318.847238 seconds.
+
+ans =
+
+58.82%
+
+Elapsed time is 1277.970038 seconds.
+
+ans =
+
+59.66%
+
+Elapsed time is 1326.518194 seconds.
+
+ans =
+
+60.50%
+
+Elapsed time is 1301.264920 seconds.
+
+ans =
+
+61.34%
+
+Elapsed time is 1306.570708 seconds.
+
+ans =
+
+62.18%
+
+Elapsed time is 1298.487343 seconds.
+
+ans =
+
+63.03%
+
+Elapsed time is 1313.449289 seconds.
+
+ans =
+
+63.87%
+
+Elapsed time is 1284.143140 seconds.
+
+ans =
+
+64.71%
+
+Elapsed time is 1306.157095 seconds.
+
+ans =
+
+65.55%
+
+Elapsed time is 1295.556069 seconds.
+
+ans =
+
+66.39%
+
+Elapsed time is 1325.293907 seconds.
+
+ans =
+
+67.23%
+
+Elapsed time is 1289.143319 seconds.
+
+ans =
+
+68.07%
+
+Elapsed time is 1310.875671 seconds.
+
+ans =
+
+68.91%
+
+Elapsed time is 1299.662392 seconds.
+
+ans =
+
+69.75%
+
+Elapsed time is 1294.187153 seconds.
+
+ans =
+
+70.59%
+
+Elapsed time is 1279.077799 seconds.
+
+ans =
+
+71.43%
+
+Elapsed time is 1311.370855 seconds.
+
+ans =
+
+72.27%
+
+Elapsed time is 1282.647043 seconds.
+
+ans =
+
+73.11%
+
+Elapsed time is 1295.480057 seconds.
+
+ans =
+
+73.95%
+
+Elapsed time is 1283.526298 seconds.
+
+ans =
+
+74.79%
+
+Elapsed time is 1309.093751 seconds.
+
+ans =
+
+75.63%
+
+Elapsed time is 1284.353504 seconds.
+
+ans =
+
+76.47%
+
+Elapsed time is 1318.952486 seconds.
+
+ans =
+
+77.31%
+
+Elapsed time is 1305.957997 seconds.
+
+ans =
+
+78.15%
+
+Elapsed time is 1302.214041 seconds.
+
+ans =
+
+78.99%
+
+Elapsed time is 1290.868180 seconds.
+
+ans =
+
+79.83%
+
+Elapsed time is 1321.327816 seconds.
+
+ans =
+
+80.67%
+
+Elapsed time is 1289.375428 seconds.
+
+ans =
+
+81.51%
+
+Elapsed time is 1303.140816 seconds.
+
+ans =
+
+82.35%
+
+Elapsed time is 1293.496745 seconds.
+
+ans =
+
+83.19%
+
+Elapsed time is 1320.242581 seconds.
+
+ans =
+
+84.03%
+
+Elapsed time is 1286.283108 seconds.
+
+ans =
+
+84.87%
+
+Elapsed time is 1311.221456 seconds.
+
+ans =
+
+85.71%
+
+Elapsed time is 1297.265088 seconds.
+
+ans =
+
+86.55%
+
+Elapsed time is 1296.875050 seconds.
+
+ans =
+
+87.39%
+
+Elapsed time is 1285.904595 seconds.
+
+ans =
+
+88.24%
+
+Elapsed time is 1314.010598 seconds.
+
+ans =
+
+89.08%
+
+Elapsed time is 1283.698532 seconds.
+
+ans =
+
+89.92%
+
+Elapsed time is 1294.198810 seconds.
+
+ans =
+
+90.76%
+
+Elapsed time is 1280.760405 seconds.
+
+ans =
+
+91.60%
+
+Elapsed time is 1313.388414 seconds.
+
+ans =
+
+92.44%
+
+Elapsed time is 1272.463629 seconds.
+
+ans =
+
+93.28%
+
+Elapsed time is 1306.614132 seconds.
+
+ans =
+
+94.12%
+
+Elapsed time is 1292.251789 seconds.
+
+ans =
+
+94.96%
+
+Elapsed time is 1287.737311 seconds.
+
+ans =
+
+95.80%
+
+Elapsed time is 1276.385211 seconds.
+
+ans =
+
+96.64%
+
+Elapsed time is 1307.705130 seconds.
+
+ans =
+
+97.48%
+
+Elapsed time is 1281.450813 seconds.
+
+ans =
+
+98.32%
+
+Elapsed time is 1292.484172 seconds.
+
+ans =
+
+99.16%
+
+Elapsed time is 1277.884993 seconds.
+
+ans =
+
+100.00%
+
+Elapsed time is 1037.467528 seconds.
+>> >> >> >> >> >> >> >> Elapsed time is 929.330598 seconds.
+>> 
+onsite =
+
+     []
+
+>> >> Elapsed time is 929.905583 seconds.
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+Pgap =
+
+    3.5118
+
+>> >> >> >> 
+Sgap =
+
+   16.4094
+
+>> 

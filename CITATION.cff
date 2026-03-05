@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: "gbn_lattice: Atomistic graphene/hBN lattice relaxation calculations"
+message: "If you use this repository, please cite the associated publication."
+date-released: 2026-02-21
+repository-code: https://github.com/gjung-group/gbn_lattice
+license: MIT
+url: https://github.com/gjung-group/gbn_lattice
+
+abstract: >
+  Code and input files for atomistic simulations of graphene on hexagonal boron nitride (G/h-BN),
+  assessing how different substrate lattice-relaxation schemes affect the primary band gap at charge
+  neutrality and the secondary valence-band gap as a function of twist angle.
+keywords:
+  - graphene
+  - hexagonal boron nitride
+  - hBN
+  - moiré
+  - lattice relaxation
+  - atomistic simulation
+  - band gap
+
+authors:
+  - family-names: An
+    given-names: Jiaqi
+  - family-names: Leconte
+    given-names: Nicolas
+  - family-names: Javvaji
+    given-names: Srivani
+  - family-names: Park
+    given-names: Youngju
+  - family-names: Jung
+    given-names: Jeil
+
+preferred-citation:
+  type: article
+  title: Atomistic substrate relaxation effects in the band gaps of graphene on hexagonal boron nitride
+  authors:
+    - family-names: An
+      given-names: Jiaqi
+    - family-names: Leconte
+      given-names: Nicolas
+    - family-names: Javvaji
+      given-names: Srivani
+    - family-names: Park
+      given-names: Youngju
+    - family-names: Jung
+      given-names: Jeil
+  journal: arXiv
+  year: 2026
+  doi: 10.48550/arXiv.2602.18893
+  url: https://www.arxiv.org/abs/2602.18893
+  identifiers:
+    - type: arxiv
+      value: 2602.18893

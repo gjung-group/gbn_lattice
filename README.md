@@ -42,7 +42,7 @@ distributions for **Figure 5**.
 
 ### AngleDependedGap
 
-Scripts and datasets used to calculate the twist-angle--dependent band
+Scripts and datasets used to calculate the twist-angle-dependent band
 gap shown in **Figure 6**.
 
 ### QuiverPlot
@@ -82,7 +82,7 @@ Depending on the figure, the scripts require:
 
 ### Python
 
--   Python â¥ 3.8
+-   Python 3.8
 -   numpy
 -   matplotlib
 
@@ -126,3 +126,4 @@ details are available.)
 
 Please cite the associated publication if you use this repository in
 your research.
+

@@ -114,10 +114,10 @@ details are available.)
 
 # Authors
 
--   Jiaqi An\
--   Nicolas Leconte\
--   Srivani Javvaji\
--   Youngju Park\
+-   Jiaqi An
+-   Nicolas Leconte
+-   Srivani Javvaji
+-   Youngju Park
 -   Jeil Jung
 
 ------------------------------------------------------------------------
@@ -126,4 +126,5 @@ details are available.)
 
 Please cite the associated publication if you use this repository in
 your research.
+
 
